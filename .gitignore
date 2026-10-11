@@ -1,0 +1,15 @@
+@"
+.venv/
+node_modules/
+dist/
+deploy/
+__pycache__/
+*.pyc
+public/model/*.data
+public/model/*.data.bak
+public/data/*_backup.*
+.env
+.env.*
+!.env.example
+"@ | Set-Content .gitignore
+public/model/*.onnx

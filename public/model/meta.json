@@ -1,0 +1,21 @@
+{
+  "model_id": "hf-hub:imageomics/bioclip",
+  "name": "hf-hub:imageomics/bioclip",
+  "file": "image_encoder.onnx",
+  "image_size": 224,
+  "mean": [
+    0.48145466,
+    0.4578275,
+    0.40821073
+  ],
+  "std": [
+    0.26862954,
+    0.26130258,
+    0.27577711
+  ],
+  "logit_scale": 100.00000762939453,
+  "dim": 512,
+  "quantization": "none",
+  "license": "See the model card on Hugging Face for the licence of the weights.",
+  "source": "https://huggingface.co/imageomics/bioclip"
+}

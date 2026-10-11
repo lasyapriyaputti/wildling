@@ -1,0 +1,15 @@
+{
+  "name": "Wildling",
+  "short_name": "Wildling",
+  "description": "Touch grass, find life. Identify nature offline with an open-weight model.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f0e2",
+  "theme_color": "#1d3b2a",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

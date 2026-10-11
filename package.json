@@ -1,0 +1,25 @@
+{
+  "name": "wildling",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Touch grass, find life. A camera-only, offline-first nature exploration PWA powered by an open-weight biology model (BioCLIP 2).",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "test": "node --test tests/*.test.js",
+    "postinstall": "node scripts/copy-ort.mjs"
+  },
+  "dependencies": {
+    "dexie": "^4.0.8",
+    "dexie-react-hooks": "^1.1.7",
+    "onnxruntime-web": "^1.20.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0"
+  }
+}

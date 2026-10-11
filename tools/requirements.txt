@@ -1,0 +1,8 @@
+# Only needed to prepare the model + data (not to run the app)
+open_clip_torch>=2.29
+torch>=2.2
+onnx>=1.16
+onnxruntime>=1.18
+numpy
+pillow
+requests
